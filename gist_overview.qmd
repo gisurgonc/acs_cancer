@@ -7,7 +7,6 @@ Triage questions:
 -   Upper GI bleeding requiring transfusion? Is bleeding persistent?
 -   Can patient maintain hydration orally?
 
-Patients with a globular mass on CT or submucosal tumor are likely at [GI Stromal Tumor](gist_overview.html)
 
 [Bleeding GIST](gist_bleeding.html)
 [Perforated GIST](gist_perforation.html)
