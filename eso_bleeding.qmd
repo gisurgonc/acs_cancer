@@ -1,0 +1,58 @@
+# EsoCA + Bleeding {#eso_bleeding}
+
+Triage questions:
+
+-   Has EGD been done? Pathology results?
+-   Presence of metastatic disease on CT chest/abdomen/pelvis?
+-   Upper GI bleeding requiring transfusion? Is bleeding persistent?
+-   Can patient maintain hydration orally?
+
+Treatment of bleeding from esophageal cancer usually occurs in anticoagulated patients. Persistent brisk bleeding should raise the possibility of an aortoesophageal fistula.
+
+## CMC Inpatient
+
+Consult **GI Surgical Oncology LCI** InBasket message to Jonathan Salo
+
+## Mercy/Pineville/Outside
+
+Triage: 
+
+- Red LCI SO 
+- InBasket message to Jonathan Salo
+
+Patients with self-limited bleeding can be discharged after a period of observation and followed as an outpatient. Brisk bleeding requires transfer to CMC Main
+
+## Acute Management
+
+-   Transfusion
+-   Correction of clotting abnormalities
+-   IV hydration
+-   Correction of electrolyte abnormalities
+-   Persistent bleeding:
+    -   Advanced GI consultation for EGD and possible endoscopic therapy
+
+## Inpatient Management
+
+-   Radiation Oncology consultation: Possible need for inpatient radiation
+-   CT C/A/P with IV contrast
+-   If small tumor $\rightarrow$ Advanced GI Consult for EUS
+
+## Background
+
+Bleeding from esophageal cancer usually occurs in the context of anticoagulation or anti-platelet therapy. Once these are stopped, bleeding usually stops. Because bleeding can lead to an earlier diagnosis, some patients with bleeding may be a candidate for early surgery if they are shown to be T2 N0 M0 on staging. Patient with small bleeding tumors should undergo EUS once stabilized. EUS can be helpful is distinguishing T2 N0 (which are candidates for primary surgery) vs T3 or N1 (which should receive neoadjuvant chemotherapy $\pm$ radiation prior to surgery).
+
+### Endoscopic Therapy
+
+A series of 45 patients with bleeding esophageal cancer from Cologne included 24 patients with active bleeding of whom 20 were treated with endoscopic therapy including argon beam coagulation with control of bleeding in 18 [@allo1064]
+
+### Radiation Therapy
+
+For patients who have not had prior radiation therapy, urgent radiation therapy can be helpful for bleeding gastric cancer [@kondoh37] [@kawabata177] [@sugita420] (and likely for esophageal cancer as well)
+
+### Aortoesophageal fistula
+
+Aortoesophageal fistula is fatal in the majority of cases. The classic description of Chiari's triad consists of mid-sternal chest pain, herald bleed, and exanguination after a period without symptoms[@carter26]. A series from Taiwan( where most cases of esophageal cancer are squamous cell) of 249 patients with bleeding esophageal cancer, found aortoesophageal fistula to be the cause in 12%. Aortoesophageal fistula can also occur after endoluminal stent placement 
+
+Successful treatment has been described using Thoracic EndoVacular Aortic Repair (TEVAR) and endoluminal stenting.[@chen8374] [@canaud248] [@sakai95]
+
+

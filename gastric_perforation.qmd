@@ -1,0 +1,29 @@
+# Gastric CA + Perforation {#gastric_perforation}
+
+Triage questions:
+
+-   Has EGD been done? Pathology results?
+-   Spontaneous or s/p procedure?
+-   Presence of metastatic disease on CT chest/abdomen/pelvis?
+-   Evidence of intra-abdominal fluid on CT?
+
+Patients with perforated gastric cancer need multidisciplinary emergency management.
+
+## Triage Team
+
+Red LCI SO
+
+## Acute Management
+
+-   IV hydration
+-   Correction of electrolyte abnormalities
+-   IV antibiotics
+-   CT abdomen/pelvis with water-soluble contrast
+-   Emergent surgery
+
+## Inpatient Management
+
+-   Emergent laparoscopic Graham Patch and placement of drains for evidence of intra-abdominal perforation
+-   May need emergent gastric resection
+
+## Background

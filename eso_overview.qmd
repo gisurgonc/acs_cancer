@@ -1,4 +1,4 @@
-# Esophageal Cancer
+# Esophageal Cancer Overview {#eso_overview}
 
 Triage questions:
 
@@ -7,9 +7,28 @@ Triage questions:
 -   Upper GI bleeding requiring transfusion? Is bleeding persistent?
 -   Can patient maintain hydration orally?
 
-## Workup
+## Triage
 
-### Patients with dysphagia
+- [Bleeding](eso_bleeding.html)
+- [Obstruction (unable to maintain hydration)](eso_obstruction.html)
+- [Perforation](eso_perforation.html)
+
+Patients who can maintain their hydration orally can be managed as an outpatient and generally do not need transfer to CMC. These patients can ususally be seen within one week.
+
+- CMC Inpatient
+
+  - Consult GI Surgical Oncology 
+  - LCI InBasket message to Jonathan Salo
+
+- Mercy/Pineville/Outside
+
+  - Triage: Red LCI SO 
+  - InBasket message to Jonathan Salo
+  - AMB CONSULT SURGICAL ONCOLOGY (Salo)
+
+## Background
+
+### Patients with dysphagia who can maintain oral hydration
 
 Patients with esophageal cancer with dysphagia are clinically staged as T3 and fit into one of two caregories:
 
@@ -22,7 +41,6 @@ These patients typically present acutely with bleeding, often while under antico
 
 Some of these patients are AJCC T2 and would be candidates for primary surgery. Most are AJCC T3 and should get preoperative chemo $\pm$ radiation. Endoscopic Ultrasound (EUS) is necessary to distinguish T2 from T3 and is available only at CMC Main.
 
-
 ## Endoscopy
 
 Endoscopy with biopsy is foundational in the evaluation of patients with esophageal obstruction.
@@ -31,20 +49,18 @@ The majority will have evidence of malignancy on EGD. Negative endoscopic biopsi
 
 Options for re-biopsy include use of a neonatal (5mm) endoscope, dilation followed by biopsy, and endoscopic ultrasound with FNA. These options are available at CMC Main and may not be available at regional facilities. [@faigel2257]
 
-## Staging
+## CT Scan
 
 Patients with esophageal cancer need CT chest/abdomen/pelvis with IV contrast for initial staging.
 
-### PET
+## PET
 
 PET scan is needed for complete staging but ordinarily is not always required in the acute setting. PET is required for accurate planning for radiation therapy. Patients who need inpatient PET need to be NPO with water only (no sugar-containing oral intake) and be without intravenous dextrose for 4 hours and have blood sugars controlled.
 
-### Endoscopic ultrasound
+## Endoscopic ultrasound
 
-EUS is helpful in distinguishing patients with localized tumors (AJCC T2) who may be candidates for primary surgery from patients with locally-advanced cancers (AJCC T3) who need preoperative chemotherapy $\pm$ radiation.  Patients with T2 tumors generally have minimal dysphagia and frequently present with bleeding during anticoagulation or surveillance for Barrett's esophagus.
+EUS is helpful in distinguishing patients with localized tumors (AJCC T2) who may be candidates for primary surgery from patients with locally-advanced cancers (AJCC T3) who need preoperative chemotherapy $\pm$ radiation. Patients with T2 tumors generally have minimal dysphagia and frequently present with bleeding during anticoagulation or surveillance for Barrett's esophagus.
 
 EUS has limited utility in the staging of patients with esophageal cancer who present with dysphagia [@mansfield3227] [@findlay1488] [@radlinski5850] [@ripley226] and is not necessary in these patients. In general, patients with esophageal cancer who need EUS can have it performed as an outpatient.
-
-
 
 

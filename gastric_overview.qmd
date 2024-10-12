@@ -1,0 +1,48 @@
+# Gastric Cancer Overview {#gastric_overview}
+
+Triage questions:
+
+-   Has EGD been done? Pathology results?
+-   Presence of metastatic disease on CT chest/abdomen/pelvis?
+-   Upper GI bleeding requiring transfusion? Is bleeding persistent?
+-   Can patient maintain hydration orally?
+
+Patients with a globular mass on CT or submucosal tumor are likely at [GI Stromal Tumor](gist_overview.html)
+
+## Triage
+
+- [Bleeding](gastric_bleeding.html)
+- [Obstruction (unable to maintain hydration)](gastric_obstruction.html)
+- [Perforation](gastric_perforation.html)
+
+
+Patients who can maintain their hydration orally can be managed as an outpatient and generally do not need transfer to CMC. These patients can ususally be seen within one week.
+
+- CMC Inpatient
+
+  - Consult GI Surgical Oncology 
+
+- Mercy/Pineville/Outside
+
+  - Triage: Red LCI SO 
+  - AMB CONSULT SURGICAL ONCOLOGY
+
+## Workup
+
+### Endoscopy
+
+### CT Scan
+
+Patients with gastric cancer need CT chest/abdomen/pelvis with IV contrast for initial staging.
+
+### PET
+
+PET scan is needed for complete staging but ordinarily is not always required in the acute setting. Patients who need inpatient PET need to be NPO with water only (no sugar-containing oral intake) and be without intravenous dextrose for 4 hours and have blood sugars controlled.
+
+### Endoscopic ultrasound
+
+EUS is helpful in distinguishing patients with localized tumors (AJCC T2) who may be candidates for primary surgery from patients with locally-advanced cancers (AJCC T3) who need preoperative chemotherapy (MAGIC). Patients with T2 tumors generally smaller tumors.
+
+### Diagnostic Laparoscopy
+
+Diagnostic laparoscopy in patients with gastric cancer yields a finding of carcinomatosis in 10-30%.  Laparoscopic is recommended in any patient who will undergo neoadjuvant chemotherapy

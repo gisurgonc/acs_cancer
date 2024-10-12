@@ -1,0 +1,26 @@
+# GIST + Perforation {#gist_perforation}
+
+Triage questions:
+
+-   Has EGD been done? Pathology results?
+-   Presence of exophytic mass on CT scan
+-   Presence of metastatic disease on CT chest/abdomen/pelvis?
+-   Evidence of intra-abdominal fluid on CT?
+
+Perforation from GI Stromal Tumors is unusual and likely is accompanied by tumor rupture. These patients should be transferred emergently to CMC Main for consideration of surgery.
+
+## Triage Team
+
+Red LCI SO 
+
+## Acute Management
+
+-   CT abdomen/pelvis with IV contrast
+-   Transfusion
+
+## Inpatient Management
+
+-   Most patients will need surgical exploration.
+
+
+

@@ -1,0 +1,71 @@
+# Gastric CA + Obstruction {#gastric_obstruction}
+
+Triage questions:
+
+-   Has EGD been done? Pathology results?
+-   Presence of metastatic disease on CT chest/abdomen/pelvis?
+-   Upper GI bleeding requiring transfusion? Is bleeding persistent?
+-   Can patient maintain hydration orally?
+
+Patients who can't maintain their hydration orally will need inpatient management.
+
+## CMC Inpatient
+
+Consult **GI Surgical Oncology LCI** InBasket message to Jonathan Salo
+
+## Mercy/Pineville/Outside
+
+Triage: Red LCI SO InBasket message to Jonathan Salo
+
+## Acute Management
+
+-   IV hydration
+-   Correction of electrolyte abnormalities
+
+## Inpatient Management
+
+-   CT C/A/P with IV contrast
+-   No need for inpatient PET
+-   Medical Oncology consult: "Is patient a candidate for palliative chemotherapy?"
+-   Central venous port for candidates for chemotherapy
+-   Feeding tube
+    -   PEG if metastatic disease
+    -   Laparoscopic feeding tube if no metastatic disease
+        -   Lap gastrostomy preferred
+        -   Lap jejunostomy acceptable
+
+# Background
+
+Patients with esophageal obstruction from cancer need treatment of electrolyte and fluid abnormalities, nutritional support, and venous access for administration of chemotherapy.
+
+## Laparoscopic Gastrostomy
+
+Laparoscopic gastrostomy is the preferred method for enteral access in patients with esophageal cancer for surgeons familiar with esophageal reconstruction. The stomach is the preferred method of reconstruction during esophagectomy and it is critical that gastrostomy placement not complicate future surgery. Gastrostomy tubes are more convenient for the patient as feedings can be done by bolus feedings, while jejunostomy feeding requires a pump over extended periods (12-16 hours).
+
+The laparoscopic approach allows placement of the tube away from the right gastroepiploic artery. Findings the ideal location for the tube involves laparoscopy with low insufflation pressure (4mm Hg), which allows adequate distention of the stomach with an endoscope. A neonatal (5mm) endoscope can be helpful. A site is selected at the midpoint of the stomach on a saggital plane to allow minimal tension on the tube. The tube is placed as far proximally on the stomach as possible yet still at least 3cm from the left costal margin (for patient comfort and to allow minimal tension on the gastrostomy tube). [Operative Description of Laparoscopic Gastrostomy](https://gisurgonc.github.io/handbook/02-lap_gastrostomy.html)
+
+## Laparoscopic Jejunostomy
+
+Jejunostomy is the traditional method of nutritional support for patients with esophageal obstruction. This avoids the risk of injury to the future gastric conduit at the time of esophagectomy.
+
+Description of operative setup for [laparoscoic jejunostomy](https://gisurgonc.github.io/handbook/02-lap_jejunostomy.html)
+
+[Postoperative Care for Jejunostomy](https://gisurgonc.github.io/handbook/03-jejunostomy.html)
+
+## Endoscopic stents
+
+Endoscopic stents to treat esophageal obstruction are appropriate in patients with documented metastatic disease (Stage IV) and those who will never be candidates for surgery.
+
+In patients who are potentially candidates for esophagectomy, stents are generally avoided to prevent complications of surgery through fibrosis of the esophagus proximal to the tumor.
+
+A retrospective study of patients with esophageal cancer and dysphagia [@mine0179522] found that treatment with gastrostomy was associated with longer survival than those treated with a endoscopic stent and had higher albumin levels and less need for re-intervention.
+
+## Percutaneous Endoscopic Gastrostomy
+
+For patients with Stage IV disease, percutaneous endoscopic gastrostomy (PEG) is indicated for nutritional support. A gastrostomy allows for bolus feeding and is more convenient for patients than a jejunostomy, which requires an infusion pump.
+
+For patients with potentially resectable disease, PEG is avoided to prevent injury to the right gastroepiploic artery and the risk of tumor seeding of the gastrostomy tract.
+
+## Central Venous Port
+
+Central venous port can facilitate the administration of chemotherapy but is not essential in the acute management of patients with esophageal cancer, particularly patients with poor performance status who may not receive chemotherapy once they meet with their treating medical oncologist. Inpatient medical oncology consultation can help sort out which patients are not candidates for chemotherapy.

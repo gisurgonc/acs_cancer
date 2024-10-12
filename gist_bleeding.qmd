@@ -1,0 +1,32 @@
+# GIST + Bleeding {#gist_bleeding}
+
+Triage questions:
+
+-   Has EGD been done? Pathology results?
+-   Presence of exophytic mass on CT scan
+-   Presence of metastatic disease on CT chest/abdomen/pelvis?
+-   Evidence of intra-abdominal fluid on CT?
+
+Bleeding from GI Stromal Tumors can occur either intraluminal or intr-abdominal.  Patients with intra-abdominal bleeding may have tumor rupture.
+
+These patients frequently need emergency surgery
+
+## Triage Team
+
+Red LCI SO 
+
+
+## Acute Management
+
+-   CT abdomen/pelvis with IV contrast
+-   Transfusion
+-   Advanced GI Consultation (for endoscopic management of bleeding)
+
+## Inpatient Management
+
+-   Most patients will need surgical exploration.
+
+## Background
+
+GIST tumors have a characteristic appearance on CT scan.  Frequently, the endoscopic appearance is that of a submucosal mass. Endoscopic biopsies are frequently negative.  Histologic diagnosis may require EUS with FNA.
+

@@ -1,0 +1,29 @@
+# Gastric CA + Bleeding {#gastric_bleeding}
+
+Triage questions:
+
+-   Has EGD been done? Pathology results?
+-   Presence of exophytic mass on CT scan
+-   Presence of metastatic disease on CT chest/abdomen/pelvis?
+-   Evidence of intra-abdominal fluid on CT?
+
+Patients with a bleeding gastric mass are generally due to adenocarcinoma or GI Stromal Tumors (GIST). In most cases, a provisional diagnosis of GIST can be made on CT scan, as these present with a localized mass and frequetnly have a large exophytic component. See [Bleeding GIST](#gist_bleeding)
+
+## Triage Team
+
+Red LCI SO
+
+## Acute Management
+
+-   IV hydration
+-   Correction of electrolyte abnormalities
+-   IV antibiotics
+-   CT abdomen/pelvis with water-soluble contrast
+-   Emergent surgery
+
+## Inpatient Management
+
+-   Emergent drainage of pleural effusions
+-   Emergent laparoscopic placement of drains for evidence of intra-abdominal perforation
+
+## Background

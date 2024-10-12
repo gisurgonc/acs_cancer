@@ -1,9 +1,7 @@
-# Preface {.unnumbered}
+# Introduction {.unnumbered}
 
-This is a Quarto book.
+Collection of protocols for the acute care surgical treatment of patients with cancer.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+This book is no substitute for clinical judgement and should not be considered a statement of standard of care
 
-```{r}
-1 + 1
-```
+

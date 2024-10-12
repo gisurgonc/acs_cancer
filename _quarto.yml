@@ -2,16 +2,32 @@ project:
   type: book
 
 book:
-  title: "acs_cancer"
-  author: "Norah Jones"
-  date: "10/9/2024"
+  title: "Acute Care Surgery for the Cancer Patient"
+  #author: "Norah Jones"
+  #date: "10/9/2024"
+  cover-image: pikaso1.jpeg
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - part: "Esophageal Cancer"
+      chapters:
+      - eso_overview.qmd
+      - eso_bleeding.qmd
+      - eso_obstruction.qmd
+      - eso_perforation.qmd
+    - part: "Gastric Tumors"
+      chapters:
+      - gastric_overview.qmd
+      - gastric_bleeding.qmd
+      - gastric_obstruction.qmd
+      - gastric_perforation.qmd
+      - gist_overview.qmd
+      - gist_bleeding.qmd
+      - gist_perforation.qmd
 
-bibliography: references.bib
+#bibliography: 'https://deidt7p41jzcy.cloudfront.net/zotero.bib'
+bibliography: 'https://gisurgonc-images.s3.us-east-2.amazonaws.com/zotero.bib'
+
+csl: elsevier-stanford.csl
 
 format:
   html:

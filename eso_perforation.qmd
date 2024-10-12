@@ -1,0 +1,64 @@
+# EsoCA + Perforation {#eso_perforation}
+
+Triage questions:
+
+-   Has EGD been done? Pathology results?
+-   Spontaneous or s/p procedure?
+-   Has patient had prior radiation therapy?
+-   CT Chest/abdomen/pelvis
+-   Pleural effusion or pneumothorax?
+-   Pneumoperitoneum or peritoneal fluid?
+
+Patients with perforated esophageal cancer need multidisciplinary emergency management. These patients should be transferred emergently to CMC Main.
+
+Patients with pleural effusion need emergent thoracic surgery consultation. Patients with pneumoperitoneum or intra-abdominal fluid in the upper abdomen need emergent laparoscopic placement of drains.
+
+## Triage Team
+
+-   CMC Thoracic Surg Attending SHVI (for thoracic perforations)
+-   Red LCI SO (for abdominal perforations)
+-   CMC LCI Head and Neck Surg Onc Attending (for cervical perforations)
+
+## Acute Management
+
+-   IV hydration
+-   Correction of electrolyte abnormalities
+-   IV antibiotics
+-   CT Esophagram with water soluble contrast
+-   CT abdomen/pelvis
+-   CT neck (if suspicion of cervical perforation)
+
+## Inpatient Management
+
+-   Emergent drainage of pleural effusions
+-   Emergent laparoscopic placement of drains for evidence of intra-abdominal perforation
+
+## Background
+
+Perforated esophageal cancer most commonly occurs after endoscopy, endoscopic ultrasound, or dilation of an esophageal cancer (or benign stricture). Endoscopic stenting is frequently not feasible due to the underlying stricture. Treatment options are conservative management with drainage and IV antibiotics, endoluminal stenting, or emergency surgery. [@abu-daff34]
+
+### Diagnosis
+
+CT esophagram with water soluble contrast is the diagnostic study of choice[@suarez-poveda505]. This should include CT neck and/or CT abdomen/pelvis depending upon the suspected level of perforation.
+
+A study from Colorado [@madsen2984] of 65 patients transferred with suspected esophageal perforation found that 24 patients were ultimately found not to have a perforation. Among patients for whom pneumomediastinum was their sole criteria for transfer, only 57% were ultimately found to have a perforation. Among patients with a pleural effusion prior to transfer, 83% were ultimately found to have a perforation. Patients with a lactate greater than 1.6 were 11 times more likely to have aperforation.
+
+### Cervical esophageal perforation
+
+Contained perforations of the cervical esophagus can be treated with NPO and IV antibiotics. Uncontained perforations need surgical exploration. In this case, nutritional support with gastrostomy is indicated.
+
+### Thoracic esophageal perforations
+
+Pittsburgh esophageal perforation scoring system: [@abbas749] Validation of Pittsburgh scoring system [@schweigert1002]
+
+A series from Birmingham UK of 74 esophageal perforations over 15 years include 13 patients with perforated cancers, of whom 7 were treated with endoscopic stenting [@charalampakis1710]. These 13 patients had a 1-year mortality of 77%
+
+### Conservative management
+
+There is little experience in the literature for the conservative management of perforated esophageal cancer. Most clinical reports exclude patients with perforated cancers. A report from Kenya of 10 perforations among 492 dilations of esophageal cancer, of whom 9 were successfully treated with endoluminal stents [@white715]. Stenting of perforated esophageal cancer is limited to case reports [@kobayashie361]
+
+### Emergent surgery
+
+Emergency esophagectomy is the traditional approach to perforated esophageal cancer given the difficulty in stenting an area of tumor (or stricture). Short-term goals are fluid resuscitation, IV antibiotics, and drainage of the pleurae (and abdomen).
+
+Emergent esophagogastrectomy via an abdominal and thoracic approach is the conventional approach in a fit patient. For frail patients, an transabdominal approach with esophagogastrostomy is less morbid [@gillen3065] although placing the patient at higher risk of postoperative reflux.
