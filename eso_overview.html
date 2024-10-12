@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Introduction – acs_cancer</title>
+<title>1&nbsp; Esophageal Cancer Overview – Acute Care Surgery for the Cancer Patient</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 /* CSS for citations */
 div.csl-bib-body { }
@@ -84,7 +50,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./summary.html" rel="next">
+<link href="./eso_bleeding.html" rel="next">
 <link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -123,6 +89,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -135,7 +130,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./eso_overview.html">Esophageal Cancer</a></li><li class="breadcrumb-item"><a href="./eso_overview.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Esophageal Cancer Overview</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -150,7 +145,7 @@ div.csl-indent {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">acs_cancer</a> 
+      <a href="./">Acute Care Surgery for the Cancer Patient</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -163,41 +158,126 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Esophageal Cancer</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  <a href="./eso_overview.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Esophageal Cancer Overview</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  <a href="./eso_bleeding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">EsoCA + Bleeding</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
+  <a href="./eso_obstruction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">EsoCA + Obstruction</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./eso_perforation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">EsoCA + Perforation</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Gastric Tumors</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gastric_overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Gastric Cancer Overview</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gastric_bleeding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Gastric CA + Bleeding</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gastric_obstruction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Gastric CA + Obstruction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gastric_perforation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Gastric CA + Perforation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gist_overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">GIST Overview</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gist_bleeding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">GIST + Bleeding</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gist_perforation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">GIST + Perforation</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#triage" id="toc-triage" class="nav-link active" data-scroll-target="#triage"><span class="header-section-number">1.1</span> Triage</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><span class="header-section-number">1.2</span> Background</a>
+  <ul class="collapse">
+  <li><a href="#patients-with-dysphagia-who-can-maintain-oral-hydration" id="toc-patients-with-dysphagia-who-can-maintain-oral-hydration" class="nav-link" data-scroll-target="#patients-with-dysphagia-who-can-maintain-oral-hydration"><span class="header-section-number">1.2.1</span> Patients with dysphagia who can maintain oral hydration</a></li>
+  <li><a href="#patients-with-minimal-dysphagia" id="toc-patients-with-minimal-dysphagia" class="nav-link" data-scroll-target="#patients-with-minimal-dysphagia"><span class="header-section-number">1.2.2</span> Patients with minimal dysphagia</a></li>
+  </ul></li>
+  <li><a href="#endoscopy" id="toc-endoscopy" class="nav-link" data-scroll-target="#endoscopy"><span class="header-section-number">1.3</span> Endoscopy</a></li>
+  <li><a href="#ct-scan" id="toc-ct-scan" class="nav-link" data-scroll-target="#ct-scan"><span class="header-section-number">1.4</span> CT Scan</a></li>
+  <li><a href="#pet" id="toc-pet" class="nav-link" data-scroll-target="#pet"><span class="header-section-number">1.5</span> PET</a></li>
+  <li><a href="#endoscopic-ultrasound" id="toc-endoscopic-ultrasound" class="nav-link" data-scroll-target="#endoscopic-ultrasound"><span class="header-section-number">1.6</span> Endoscopic ultrasound</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./eso_overview.html">Esophageal Cancer</a></li><li class="breadcrumb-item"><a href="./eso_overview.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Esophageal Cancer Overview</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+<h1 class="title"><span id="eso_overview" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Esophageal Cancer Overview</span></span></h1>
 </div>
 
 
@@ -214,21 +294,89 @@ div.csl-indent {
 </header>
 
 
-<p>This is a book created from markdown and executable code.</p>
-<p>See <span class="citation" data-cites="knuth84">Knuth (<a href="references.html#ref-knuth84" role="doc-biblioref">1984</a>)</span> for additional discussion of literate programming.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<p>Triage questions:</p>
+<ul>
+<li>Has EGD been done? Pathology results?</li>
+<li>Presence of metastatic disease on CT chest/abdomen/pelvis?</li>
+<li>Upper GI bleeding requiring transfusion? Is bleeding persistent?</li>
+<li>Can patient maintain hydration orally?</li>
+</ul>
+<section id="triage" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="triage"><span class="header-section-number">1.1</span> Triage</h2>
+<ul>
+<li><a href="eso_bleeding.html">Bleeding</a></li>
+<li><a href="eso_obstruction.html">Obstruction (unable to maintain hydration)</a></li>
+<li><a href="eso_perforation.html">Perforation</a></li>
+</ul>
+<p>Patients who can maintain their hydration orally can be managed as an outpatient and generally do not need transfer to CMC. These patients can ususally be seen within one week.</p>
+<ul>
+<li><p>CMC Inpatient</p>
+<ul>
+<li>Consult GI Surgical Oncology</li>
+<li>LCI InBasket message to Jonathan Salo</li>
+</ul></li>
+<li><p>Mercy/Pineville/Outside</p>
+<ul>
+<li>Triage: Red LCI SO</li>
+<li>InBasket message to Jonathan Salo</li>
+<li>AMB CONSULT SURGICAL ONCOLOGY (Salo)</li>
+</ul></li>
+</ul>
+</section>
+<section id="background" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="background"><span class="header-section-number">1.2</span> Background</h2>
+<section id="patients-with-dysphagia-who-can-maintain-oral-hydration" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="patients-with-dysphagia-who-can-maintain-oral-hydration"><span class="header-section-number">1.2.1</span> Patients with dysphagia who can maintain oral hydration</h3>
+<p>Patients with esophageal cancer with dysphagia are clinically staged as T3 and fit into one of two caregories:</p>
+<ul>
+<li>Patients with metastatic disease (liver, lung, or extra-regional lymphadenopathy with cervical or para-aortic nodes). Treatment is chemotherapy with radiation for palliation of dysphagia or treatment of symptomatic bone metastasis</li>
+<li>Patients without metastatic disease are staged Locally Advanced and treated with preoperative chemotherapy <span class="math inline">\(\pm\)</span> radiation followed by surgery. Surgery as primary therapy is not indicated except for cancer perforation.</li>
+</ul>
+</section>
+<section id="patients-with-minimal-dysphagia" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="patients-with-minimal-dysphagia"><span class="header-section-number">1.2.2</span> Patients with minimal dysphagia</h3>
+<p>These patients typically present acutely with bleeding, often while under anticoagulation.</p>
+<p>Some of these patients are AJCC T2 and would be candidates for primary surgery. Most are AJCC T3 and should get preoperative chemo <span class="math inline">\(\pm\)</span> radiation. Endoscopic Ultrasound (EUS) is necessary to distinguish T2 from T3 and is available only at CMC Main.</p>
+</section>
+</section>
+<section id="endoscopy" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="endoscopy"><span class="header-section-number">1.3</span> Endoscopy</h2>
+<p>Endoscopy with biopsy is foundational in the evaluation of patients with esophageal obstruction.</p>
+<p>The majority will have evidence of malignancy on EGD. Negative endoscopic biopsies in the patient with an obstructing esophageal stricture are unusual but not rare.</p>
+<p>Options for re-biopsy include use of a neonatal (5mm) endoscope, dilation followed by biopsy, and endoscopic ultrasound with FNA. These options are available at CMC Main and may not be available at regional facilities. <span class="citation" data-cites="faigel2257">(<a href="#ref-faigel2257" role="doc-biblioref">Faigel et al., 1998</a>)</span></p>
+</section>
+<section id="ct-scan" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="ct-scan"><span class="header-section-number">1.4</span> CT Scan</h2>
+<p>Patients with esophageal cancer need CT chest/abdomen/pelvis with IV contrast for initial staging.</p>
+</section>
+<section id="pet" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="pet"><span class="header-section-number">1.5</span> PET</h2>
+<p>PET scan is needed for complete staging but ordinarily is not always required in the acute setting. PET is required for accurate planning for radiation therapy. Patients who need inpatient PET need to be NPO with water only (no sugar-containing oral intake) and be without intravenous dextrose for 4 hours and have blood sugars controlled.</p>
+</section>
+<section id="endoscopic-ultrasound" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="endoscopic-ultrasound"><span class="header-section-number">1.6</span> Endoscopic ultrasound</h2>
+<p>EUS is helpful in distinguishing patients with localized tumors (AJCC T2) who may be candidates for primary surgery from patients with locally-advanced cancers (AJCC T3) who need preoperative chemotherapy <span class="math inline">\(\pm\)</span> radiation. Patients with T2 tumors generally have minimal dysphagia and frequently present with bleeding during anticoagulation or surveillance for Barrett’s esophagus.</p>
+<p>EUS has limited utility in the staging of patients with esophageal cancer who present with dysphagia <span class="citation" data-cites="mansfield3227">(<a href="#ref-mansfield3227" role="doc-biblioref">Mansfield et al., 2017</a>)</span> <span class="citation" data-cites="findlay1488">(<a href="#ref-findlay1488" role="doc-biblioref">Findlay et al., 2015</a>)</span> <span class="citation" data-cites="radlinski5850">(<a href="#ref-radlinski5850" role="doc-biblioref">Radlinski et al., 2020</a>)</span> <span class="citation" data-cites="ripley226">(<a href="#ref-ripley226" role="doc-biblioref">Ripley et al., 2016</a>)</span> and is not necessary in these patients. In general, patients with esophageal cancer who need EUS can have it performed as an outpatient.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-knuth84" class="csl-entry" role="listitem">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-faigel2257" class="csl-entry" role="listitem">
+Faigel, D.O., Deveney, C., Phillips, D., Fennerty, M.B., 1998. Biopsy-negative malignant esophageal stricture: Diagnosis by endoscopic ultrasound. The American Journal of Gastroenterology 93, 2257–2260. <a href="https://www.ncbi.nlm.nih.gov/pubmed/9820410">9820410</a>
+</div>
+<div id="ref-findlay1488" class="csl-entry" role="listitem">
+Findlay, J.M., Bradley, K.M., Maile, E.J., Braden, B., Maw, J., Phillips-Hughes, J., Gillies, R.S., Maynard, N.D., Middleton, M.R., 2015. Pragmatic staging of oesophageal cancer using decision theory involving selective endoscopic ultrasonography, <span>PET</span> and laparoscopy. The British Journal of Surgery 102, 1488–1499. <a href="https://www.ncbi.nlm.nih.gov/pubmed/26458070">26458070</a>
+</div>
+<div id="ref-mansfield3227" class="csl-entry" role="listitem">
+Mansfield, S.A., El-Dika, S., Krishna, S.G., Perry, K.A., Walker, J.P., 2017. Routine staging with endoscopic ultrasound in patients with obstructing esophageal cancer and dysphagia rarely impacts treatment decisions. Surgical Endoscopy 31, 3227–3233. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27864719">27864719</a>
+</div>
+<div id="ref-radlinski5850" class="csl-entry" role="listitem">
+Radlinski, M., Martin, L.W., Walters, D.M., Northup, P., Wang, A.Y., Rodee, T., Sauer, B.G., Shami, V.M., 2020. Use of endoscopic ultrasound in pre-treatment staging of esophageal cancer did not alter management plan. Journal of Thoracic Disease 12, 5850–5856. <a href="https://www.ncbi.nlm.nih.gov/pubmed/33209417">33209417</a>
+</div>
+<div id="ref-ripley226" class="csl-entry" role="listitem">
+Ripley, R.T., Sarkaria, I.S., Grosser, R., Sima, C.S., Bains, M.S., Jones, D.R., Adusumilli, P.S., Huang, J., Finley, D.J., Rusch, V.W., Rizk, N.P., 2016. Pretreatment <span>Dysphagia</span> in <span>Esophageal</span> <span>Cancer</span> <span>Patients</span> <span>May</span> <span>Eliminate</span> the <span>Need</span> for <span>Staging</span> by <span>Endoscopic</span> <span>Ultrasonography</span>. The Annals of Thoracic Surgery 101, 226–230. <a href="https://www.ncbi.nlm.nih.gov/pubmed/26603024">26603024</a>
 </div>
 </div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -653,13 +801,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Preface">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      <a href="./index.html" class="pagination-link" aria-label="Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./summary.html" class="pagination-link" aria-label="Summary">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./eso_bleeding.html" class="pagination-link" aria-label="EsoCA + Bleeding">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">EsoCA + Bleeding</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

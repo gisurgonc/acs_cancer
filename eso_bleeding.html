@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Acute Care Surgery for the Cancer Patient</title>
+<title>2&nbsp; EsoCA + Bleeding – Acute Care Surgery for the Cancer Patient</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,7 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./eso_overview.html" rel="next">
+<link href="./eso_obstruction.html" rel="next">
+<link href="./eso_overview.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,6 +89,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -80,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Introduction</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./eso_overview.html">Esophageal Cancer</a></li><li class="breadcrumb-item"><a href="./eso_bleeding.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">EsoCA + Bleeding</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -107,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
   </div>
 </li>
@@ -128,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./eso_bleeding.html" class="sidebar-item-text sidebar-link">
+  <a href="./eso_bleeding.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">EsoCA + Bleeding</span></span></a>
   </div>
 </li>
@@ -209,16 +259,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#cmc-inpatient" id="toc-cmc-inpatient" class="nav-link active" data-scroll-target="#cmc-inpatient"><span class="header-section-number">2.1</span> CMC Inpatient</a></li>
+  <li><a href="#mercypinevilleoutside" id="toc-mercypinevilleoutside" class="nav-link" data-scroll-target="#mercypinevilleoutside"><span class="header-section-number">2.2</span> Mercy/Pineville/Outside</a></li>
+  <li><a href="#acute-management" id="toc-acute-management" class="nav-link" data-scroll-target="#acute-management"><span class="header-section-number">2.3</span> Acute Management</a></li>
+  <li><a href="#inpatient-management" id="toc-inpatient-management" class="nav-link" data-scroll-target="#inpatient-management"><span class="header-section-number">2.4</span> Inpatient Management</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><span class="header-section-number">2.5</span> Background</a>
+  <ul class="collapse">
+  <li><a href="#endoscopic-therapy" id="toc-endoscopic-therapy" class="nav-link" data-scroll-target="#endoscopic-therapy"><span class="header-section-number">2.5.1</span> Endoscopic Therapy</a></li>
+  <li><a href="#radiation-therapy" id="toc-radiation-therapy" class="nav-link" data-scroll-target="#radiation-therapy"><span class="header-section-number">2.5.2</span> Radiation Therapy</a></li>
+  <li><a href="#aortoesophageal-fistula" id="toc-aortoesophageal-fistula" class="nav-link" data-scroll-target="#aortoesophageal-fistula"><span class="header-section-number">2.5.3</span> Aortoesophageal fistula</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./eso_overview.html">Esophageal Cancer</a></li><li class="breadcrumb-item"><a href="./eso_bleeding.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">EsoCA + Bleeding</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Acute Care Surgery for the Cancer Patient</h1>
+<h1 class="title"><span id="eso_bleeding" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">EsoCA + Bleeding</span></span></h1>
 </div>
 
 
@@ -235,13 +294,92 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Triage questions:</p>
+<ul>
+<li>Has EGD been done? Pathology results?</li>
+<li>Presence of metastatic disease on CT chest/abdomen/pelvis?</li>
+<li>Upper GI bleeding requiring transfusion? Is bleeding persistent?</li>
+<li>Can patient maintain hydration orally?</li>
+</ul>
+<p>Treatment of bleeding from esophageal cancer usually occurs in anticoagulated patients. Persistent brisk bleeding should raise the possibility of an aortoesophageal fistula.</p>
+<section id="cmc-inpatient" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="cmc-inpatient"><span class="header-section-number">2.1</span> CMC Inpatient</h2>
+<p>Consult <strong>GI Surgical Oncology LCI</strong> InBasket message to Jonathan Salo</p>
+</section>
+<section id="mercypinevilleoutside" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="mercypinevilleoutside"><span class="header-section-number">2.2</span> Mercy/Pineville/Outside</h2>
+<p>Triage:</p>
+<ul>
+<li>Red LCI SO</li>
+<li>InBasket message to Jonathan Salo</li>
+</ul>
+<p>Patients with self-limited bleeding can be discharged after a period of observation and followed as an outpatient. Brisk bleeding requires transfer to CMC Main</p>
+</section>
+<section id="acute-management" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="acute-management"><span class="header-section-number">2.3</span> Acute Management</h2>
+<ul>
+<li>Transfusion</li>
+<li>Correction of clotting abnormalities</li>
+<li>IV hydration</li>
+<li>Correction of electrolyte abnormalities</li>
+<li>Persistent bleeding:
+<ul>
+<li>Advanced GI consultation for EGD and possible endoscopic therapy</li>
+</ul></li>
+</ul>
+</section>
+<section id="inpatient-management" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="inpatient-management"><span class="header-section-number">2.4</span> Inpatient Management</h2>
+<ul>
+<li>Radiation Oncology consultation: Possible need for inpatient radiation</li>
+<li>CT C/A/P with IV contrast</li>
+<li>If small tumor <span class="math inline">\(\rightarrow\)</span> Advanced GI Consult for EUS</li>
+</ul>
+</section>
+<section id="background" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="background"><span class="header-section-number">2.5</span> Background</h2>
+<p>Bleeding from esophageal cancer usually occurs in the context of anticoagulation or anti-platelet therapy. Once these are stopped, bleeding usually stops. Because bleeding can lead to an earlier diagnosis, some patients with bleeding may be a candidate for early surgery if they are shown to be T2 N0 M0 on staging. Patient with small bleeding tumors should undergo EUS once stabilized. EUS can be helpful is distinguishing T2 N0 (which are candidates for primary surgery) vs T3 or N1 (which should receive neoadjuvant chemotherapy <span class="math inline">\(\pm\)</span> radiation prior to surgery).</p>
+<section id="endoscopic-therapy" class="level3" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="endoscopic-therapy"><span class="header-section-number">2.5.1</span> Endoscopic Therapy</h3>
+<p>A series of 45 patients with bleeding esophageal cancer from Cologne included 24 patients with active bleeding of whom 20 were treated with endoscopic therapy including argon beam coagulation with control of bleeding in 18 <span class="citation" data-cites="allo1064">(<a href="#ref-allo1064" role="doc-biblioref">Allo et al., 2023</a>)</span></p>
+</section>
+<section id="radiation-therapy" class="level3" data-number="2.5.2">
+<h3 data-number="2.5.2" class="anchored" data-anchor-id="radiation-therapy"><span class="header-section-number">2.5.2</span> Radiation Therapy</h3>
+<p>For patients who have not had prior radiation therapy, urgent radiation therapy can be helpful for bleeding gastric cancer <span class="citation" data-cites="kondoh37">(<a href="#ref-kondoh37" role="doc-biblioref">Kondoh et al., 2015</a>)</span> <span class="citation" data-cites="kawabata177">(<a href="#ref-kawabata177" role="doc-biblioref">Kawabata et al., 2017</a>)</span> <span class="citation" data-cites="sugita420">(<a href="#ref-sugita420" role="doc-biblioref">Sugita et al., 2022</a>)</span> (and likely for esophageal cancer as well)</p>
+</section>
+<section id="aortoesophageal-fistula" class="level3" data-number="2.5.3">
+<h3 data-number="2.5.3" class="anchored" data-anchor-id="aortoesophageal-fistula"><span class="header-section-number">2.5.3</span> Aortoesophageal fistula</h3>
+<p>Aortoesophageal fistula is fatal in the majority of cases. The classic description of Chiari’s triad consists of mid-sternal chest pain, herald bleed, and exanguination after a period without symptoms<span class="citation" data-cites="carter26">(<a href="#ref-carter26" role="doc-biblioref">Carter et al., 1978</a>)</span>. A series from Taiwan( where most cases of esophageal cancer are squamous cell) of 249 patients with bleeding esophageal cancer, found aortoesophageal fistula to be the cause in 12%. Aortoesophageal fistula can also occur after endoluminal stent placement</p>
+<p>Successful treatment has been described using Thoracic EndoVacular Aortic Repair (TEVAR) and endoluminal stenting.<span class="citation" data-cites="chen8374">(<a href="#ref-chen8374" role="doc-biblioref">Chen et al., 2021</a>)</span> <span class="citation" data-cites="canaud248">(<a href="#ref-canaud248" role="doc-biblioref">Canaud et al., 2014</a>)</span> <span class="citation" data-cites="sakai95">(<a href="#ref-sakai95" role="doc-biblioref">Sakai et al., 2024</a>)</span></p>
 
-<section id="introduction" class="level1 unnumbered">
-<h1 class="unnumbered">Introduction</h1><p><img src="pikaso1.jpeg" title="Acute Care Surgery for the Cancer Patient" class="quarto-cover-image img-fluid"></p>
-<p>Collection of protocols for the acute care surgical treatment of patients with cancer.</p>
-<p>This book is no substitute for clinical judgement and should not be considered a statement of standard of care</p>
 
-
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-allo1064" class="csl-entry" role="listitem">
+Allo, G., Bürger, M., Chon, S.-H., Gülcicegi, D., Krämer, L., Goeser, T., Kütting, F., 2023. Efficacy of endoscopic therapy and long-term outcomes of upper gastrointestinal tumor bleeding in patients with esophageal cancer. Scandinavian Journal of Gastroenterology 58, 1064–1070. <a href="https://www.ncbi.nlm.nih.gov/pubmed/37029631">37029631</a>
+</div>
+<div id="ref-canaud248" class="csl-entry" role="listitem">
+Canaud, L., Ozdemir, B.A., Bee, W.W., Bahia, S., Holt, P., Thompson, M., 2014. Thoracic endovascular aortic repair in management of aortoesophageal fistulas. Journal of Vascular Surgery 59, 248–254. <a href="https://www.ncbi.nlm.nih.gov/pubmed/24199764">24199764</a>
+</div>
+<div id="ref-carter26" class="csl-entry" role="listitem">
+Carter, R., Mulder, G.A., Snyder, E.N., Brewer, L.A., 1978. Aortoesophageal fistula. American Journal of Surgery 136, 26–30. <a href="https://www.ncbi.nlm.nih.gov/pubmed/677387">677387</a>
+</div>
+<div id="ref-chen8374" class="csl-entry" role="listitem">
+Chen, K.-C., Wu, I.-H., Chang, C.-Y., Huang, P.-M., Lin, M.-W., Lee, J.-M., 2021. The <span>Long</span>-<span>Term</span> <span>Clinical</span> <span>Impact</span> of <span>Thoracic</span> <span>Endovascular</span> <span>Aortic</span> <span>Repair</span> (<span>TEVAR</span>) for <span>Advanced</span> <span>Esophageal</span> <span>Cancer</span> <span>Invading</span> <span>Aorta</span>. Annals of Surgical Oncology 28, 8374–8384. <a href="https://www.ncbi.nlm.nih.gov/pubmed/34085143">34085143</a>
+</div>
+<div id="ref-kawabata177" class="csl-entry" role="listitem">
+Kawabata, H., Uno, K., Yasuda, K., Yamashita, M., 2017. Experience of <span>Low</span>-<span>Dose</span>, <span>Short</span>-<span>Course</span> <span>Palliative</span> <span>Radiotherapy</span> for <span>Bleeding</span> from <span>Unresectable</span> <span>Gastric</span> <span>Cancer</span>. Journal of Palliative Medicine 20, 177–180. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27672720">27672720</a>
+</div>
+<div id="ref-kondoh37" class="csl-entry" role="listitem">
+Kondoh, C., Shitara, K., Nomura, M., Takahari, D., Ura, T., Tachibana, H., Tomita, N., Kodaira, T., Muro, K., 2015. Efficacy of palliative radiotherapy for gastric bleeding in patients with unresectable advanced gastric cancer: A retrospective cohort study. BMC palliative care 14, 37. <a href="https://www.ncbi.nlm.nih.gov/pubmed/26238344">26238344</a>
+</div>
+<div id="ref-sakai95" class="csl-entry" role="listitem">
+Sakai, M., Sohda, M., Uchida, S., Yamaguchi, A., Watanabe, T., Saito, H., Nakazawa, N., Kuriyama, K., Sano, A., Ogawa, H., Yokobori, T., Nagai, K., Shirabe, K., Saeki, H., 2024. Efficacy of thoracic endovascular aortic repair for aorto-esophageal fistula due to esophageal cancer: A systematic review and meta-analysis. Esophagus: Official Journal of the Japan Esophageal Society 21, 95–101. <a href="https://www.ncbi.nlm.nih.gov/pubmed/38302854">38302854</a>
+</div>
+<div id="ref-sugita420" class="csl-entry" role="listitem">
+Sugita, H., Sakuramoto, S., Mihara, Y., Matsui, K., Nishibeppu, K., Ebara, G., Fuijta, S., Fujihata, S., Oya, S., Miyawaki, Y., Sato, H., Horita, Y., Hamaguchi, T., Noda, S.-E., Kato, S., Hirano, Y., Okamoto, K., Koyama, I., 2022. Verification of the <span>Utility</span> of <span>Palliative</span> <span>Radiotherapy</span> for <span>Hemostasis</span> of <span>Gastric</span> <span>Cancer</span> <span>Bleeding</span>: A <span>Case</span> <span>Control</span> <span>Study</span>. Journal of Gastrointestinal Cancer 53, 420–426. <a href="https://www.ncbi.nlm.nih.gov/pubmed/33754255">33754255</a>
+</div>
+</div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -667,10 +805,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./eso_overview.html" class="pagination-link" aria-label="Esophageal Cancer Overview">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Esophageal Cancer Overview</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./eso_overview.html" class="pagination-link" aria-label="Esophageal Cancer Overview">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Esophageal Cancer Overview</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./eso_obstruction.html" class="pagination-link" aria-label="EsoCA + Obstruction">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">EsoCA + Obstruction</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

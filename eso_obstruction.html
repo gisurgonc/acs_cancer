@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Acute Care Surgery for the Cancer Patient</title>
+<title>3&nbsp; EsoCA + Obstruction – Acute Care Surgery for the Cancer Patient</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,7 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./eso_overview.html" rel="next">
+<link href="./eso_perforation.html" rel="next">
+<link href="./eso_bleeding.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -80,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Introduction</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./eso_overview.html">Esophageal Cancer</a></li><li class="breadcrumb-item"><a href="./eso_obstruction.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">EsoCA + Obstruction</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -107,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
   </div>
 </li>
@@ -134,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./eso_obstruction.html" class="sidebar-item-text sidebar-link">
+  <a href="./eso_obstruction.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">EsoCA + Obstruction</span></span></a>
   </div>
 </li>
@@ -209,16 +230,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#cmc-inpatient" id="toc-cmc-inpatient" class="nav-link active" data-scroll-target="#cmc-inpatient"><span class="header-section-number">3.1</span> CMC Inpatient</a></li>
+  <li><a href="#mercypinevilleoutside" id="toc-mercypinevilleoutside" class="nav-link" data-scroll-target="#mercypinevilleoutside"><span class="header-section-number">3.2</span> Mercy/Pineville/Outside</a></li>
+  <li><a href="#acute-management" id="toc-acute-management" class="nav-link" data-scroll-target="#acute-management"><span class="header-section-number">3.3</span> Acute Management</a></li>
+  <li><a href="#inpatient-management" id="toc-inpatient-management" class="nav-link" data-scroll-target="#inpatient-management"><span class="header-section-number">3.4</span> Inpatient Management</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><span class="header-section-number">3.5</span> Background</a>
+  <ul class="collapse">
+  <li><a href="#laparoscopic-gastrostomy" id="toc-laparoscopic-gastrostomy" class="nav-link" data-scroll-target="#laparoscopic-gastrostomy"><span class="header-section-number">3.5.1</span> Laparoscopic Gastrostomy</a></li>
+  <li><a href="#laparoscopic-jejunostomy" id="toc-laparoscopic-jejunostomy" class="nav-link" data-scroll-target="#laparoscopic-jejunostomy"><span class="header-section-number">3.5.2</span> Laparoscopic Jejunostomy</a></li>
+  <li><a href="#endoscopic-stents" id="toc-endoscopic-stents" class="nav-link" data-scroll-target="#endoscopic-stents"><span class="header-section-number">3.5.3</span> Endoscopic stents</a></li>
+  <li><a href="#percutaneous-endoscopic-gastrostomy" id="toc-percutaneous-endoscopic-gastrostomy" class="nav-link" data-scroll-target="#percutaneous-endoscopic-gastrostomy"><span class="header-section-number">3.5.4</span> Percutaneous Endoscopic Gastrostomy</a></li>
+  <li><a href="#central-venous-port" id="toc-central-venous-port" class="nav-link" data-scroll-target="#central-venous-port"><span class="header-section-number">3.5.5</span> Central Venous Port</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./eso_overview.html">Esophageal Cancer</a></li><li class="breadcrumb-item"><a href="./eso_obstruction.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">EsoCA + Obstruction</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Acute Care Surgery for the Cancer Patient</h1>
+<h1 class="title"><span id="eso_obstruction" class="quarto-section-identifier"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">EsoCA + Obstruction</span></span></h1>
 </div>
 
 
@@ -235,13 +267,89 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Triage questions:</p>
+<ul>
+<li>Has EGD been done? Pathology results?</li>
+<li>Presence of metastatic disease on CT chest/abdomen/pelvis?</li>
+<li>Upper GI bleeding requiring transfusion? Is bleeding persistent?</li>
+<li>Can patient maintain hydration orally?</li>
+</ul>
+<p>Patients who can’t maintain their hydration orally will need inpatient management.</p>
+<section id="cmc-inpatient" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="cmc-inpatient"><span class="header-section-number">3.1</span> CMC Inpatient</h2>
+<ul>
+<li><p>Consult <strong>GI Surgical Oncology LCI</strong></p></li>
+<li><p>InBasket message to Jonathan Salo</p></li>
+</ul>
+</section>
+<section id="mercypinevilleoutside" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="mercypinevilleoutside"><span class="header-section-number">3.2</span> Mercy/Pineville/Outside</h2>
+<ul>
+<li><p>Triage: Red LCI SO</p></li>
+<li><p>InBasket message to Jonathan Salo</p></li>
+</ul>
+</section>
+<section id="acute-management" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="acute-management"><span class="header-section-number">3.3</span> Acute Management</h2>
+<ul>
+<li>IV hydration</li>
+<li>Correction of electrolyte abnormalities</li>
+</ul>
+</section>
+<section id="inpatient-management" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="inpatient-management"><span class="header-section-number">3.4</span> Inpatient Management</h2>
+<ul>
+<li>CT C/A/P with IV contrast</li>
+<li>No need for inpatient PET</li>
+<li>Medical Oncology consult: “Is patient a candidate for palliative chemotherapy?”</li>
+<li>Central venous port for candidates for chemotherapy</li>
+<li>Feeding tube
+<ul>
+<li>PEG if metastatic disease</li>
+<li>Laparoscopic feeding tube if no metastatic disease
+<ul>
+<li>Lap gastrostomy preferred</li>
+<li>Lap jejunostomy acceptable</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="background" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="background"><span class="header-section-number">3.5</span> Background</h2>
+<p>Patients with esophageal obstruction from cancer need treatment of electrolyte and fluid abnormalities, nutritional support, and venous access for administration of chemotherapy.</p>
+<section id="laparoscopic-gastrostomy" class="level3" data-number="3.5.1">
+<h3 data-number="3.5.1" class="anchored" data-anchor-id="laparoscopic-gastrostomy"><span class="header-section-number">3.5.1</span> Laparoscopic Gastrostomy</h3>
+<p>Laparoscopic gastrostomy is the preferred method for enteral access in patients with esophageal cancer for surgeons familiar with esophageal reconstruction. The stomach is the preferred method of reconstruction during esophagectomy and it is critical that gastrostomy placement not complicate future surgery. Gastrostomy tubes are more convenient for the patient as feedings can be done by bolus feedings, while jejunostomy feeding requires a pump over extended periods (12-16 hours).</p>
+<p>The laparoscopic approach allows placement of the tube away from the right gastroepiploic artery. Findings the ideal location for the tube involves laparoscopy with low insufflation pressure (4mm Hg), which allows adequate distention of the stomach with an endoscope. A neonatal (5mm) endoscope can be helpful. A site is selected at the midpoint of the stomach on a saggital plane to allow minimal tension on the tube. The tube is placed as far proximally on the stomach as possible yet still at least 3cm from the left costal margin (for patient comfort and to allow minimal tension on the gastrostomy tube). <a href="https://gisurgonc.github.io/handbook/02-lap_gastrostomy.html">Operative Description of Laparoscopic Gastrostomy</a></p>
+</section>
+<section id="laparoscopic-jejunostomy" class="level3" data-number="3.5.2">
+<h3 data-number="3.5.2" class="anchored" data-anchor-id="laparoscopic-jejunostomy"><span class="header-section-number">3.5.2</span> Laparoscopic Jejunostomy</h3>
+<p>Jejunostomy is the traditional method of nutritional support for patients with esophageal obstruction. This avoids the risk of injury to the future gastric conduit at the time of esophagectomy.</p>
+<p>Description of operative setup for <a href="https://gisurgonc.github.io/handbook/02-lap_jejunostomy.html">laparoscoic jejunostomy</a></p>
+<p><a href="https://gisurgonc.github.io/handbook/03-jejunostomy.html">Postoperative Care for Jejunostomy</a></p>
+</section>
+<section id="endoscopic-stents" class="level3" data-number="3.5.3">
+<h3 data-number="3.5.3" class="anchored" data-anchor-id="endoscopic-stents"><span class="header-section-number">3.5.3</span> Endoscopic stents</h3>
+<p>Endoscopic stents to treat esophageal obstruction are appropriate in patients with documented metastatic disease (Stage IV) and those who will never be candidates for surgery.</p>
+<p>In patients who are potentially candidates for esophagectomy, stents are generally avoided to prevent complications of surgery through fibrosis of the esophagus proximal to the tumor.</p>
+<p>A retrospective study of patients with esophageal cancer and dysphagia <span class="citation" data-cites="mine0179522">(<a href="#ref-mine0179522" role="doc-biblioref">Min et al., 2017</a>)</span> found that treatment with gastrostomy was associated with longer survival than those treated with a endoscopic stent and had higher albumin levels and less need for re-intervention.</p>
+</section>
+<section id="percutaneous-endoscopic-gastrostomy" class="level3" data-number="3.5.4">
+<h3 data-number="3.5.4" class="anchored" data-anchor-id="percutaneous-endoscopic-gastrostomy"><span class="header-section-number">3.5.4</span> Percutaneous Endoscopic Gastrostomy</h3>
+<p>For patients with Stage IV disease, percutaneous endoscopic gastrostomy (PEG) is indicated for nutritional support. A gastrostomy allows for bolus feeding and is more convenient for patients than a jejunostomy, which requires an infusion pump.</p>
+<p>For patients with potentially resectable disease, PEG is avoided to prevent injury to the right gastroepiploic artery and the risk of tumor seeding of the gastrostomy tract.</p>
+</section>
+<section id="central-venous-port" class="level3" data-number="3.5.5">
+<h3 data-number="3.5.5" class="anchored" data-anchor-id="central-venous-port"><span class="header-section-number">3.5.5</span> Central Venous Port</h3>
+<p>Central venous port can facilitate the administration of chemotherapy but is not essential in the acute management of patients with esophageal cancer, particularly patients with poor performance status who may not receive chemotherapy once they meet with their treating medical oncologist. Inpatient medical oncology consultation can help sort out which patients are not candidates for chemotherapy.</p>
 
-<section id="introduction" class="level1 unnumbered">
-<h1 class="unnumbered">Introduction</h1><p><img src="pikaso1.jpeg" title="Acute Care Surgery for the Cancer Patient" class="quarto-cover-image img-fluid"></p>
-<p>Collection of protocols for the acute care surgical treatment of patients with cancer.</p>
-<p>This book is no substitute for clinical judgement and should not be considered a statement of standard of care</p>
 
-
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-mine0179522" class="csl-entry" role="listitem">
+Min, Y.W., Jang, E.Y., Jung, J.H., Lee, H., Min, B.-H., Lee, J.H., Rhee, P.-L., Kim, J.J., 2017. Comparison between gastrostomy feeding and self-expandable metal stent insertion for patients with esophageal cancer and dysphagia. PloS One 12, e0179522. <a href="https://www.ncbi.nlm.nih.gov/pubmed/28632744">28632744</a>
+</div>
+</div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -667,10 +775,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./eso_bleeding.html" class="pagination-link" aria-label="EsoCA + Bleeding">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">EsoCA + Bleeding</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./eso_overview.html" class="pagination-link" aria-label="Esophageal Cancer Overview">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Esophageal Cancer Overview</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./eso_perforation.html" class="pagination-link" aria-label="EsoCA + Perforation">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">EsoCA + Perforation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
