@@ -6,6 +6,7 @@ book:
   #author: "Norah Jones"
   #date: "10/9/2024"
   cover-image: pikaso1.jpeg
+  downloads: [pdf, epub, docx]
   chapters:
     - index.qmd
     - part: "Esophageal Cancer"
@@ -24,8 +25,8 @@ book:
       - gist_bleeding.qmd
       - gist_perforation.qmd
 
-#bibliography: 'https://deidt7p41jzcy.cloudfront.net/zotero.bib'
-bibliography: 'https://gisurgonc-images.s3.us-east-2.amazonaws.com/zotero.bib'
+bibliography: 'https://deidt7p41jzcy.cloudfront.net/zotero.bib'
+#bibliography: 'https://gisurgonc-images.s3.us-east-2.amazonaws.com/zotero.bib'
 
 csl: elsevier-stanford.csl
 
